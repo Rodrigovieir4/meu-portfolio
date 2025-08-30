@@ -124,3 +124,24 @@ sr.reveal('.profile-photo', { origin: 'bottom', delay: 400 });
 sr.reveal('.project-item', { interval: 200, origin: 'bottom' });
 sr.reveal('.certify-grid .project-item', { interval: 200, origin: 'bottom' });
 sr.reveal('.social-links a', { interval: 100, origin: 'bottom', delay: 600 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const projectToggle = document.getElementById('project-toggle');
+    const certifyToggle = document.getElementById('certify-toggle');
+    const projectGrid = document.getElementById('project-grid');
+    const certifyGrid = document.getElementById('certify-grid');
+
+    if (projectToggle && projectGrid) {
+        projectToggle.addEventListener('click', function() {
+            projectGrid.classList.toggle('expanded');
+            projectToggle.classList.toggle('expanded');
+        });
+    }
+
+    if (certifyToggle && certifyGrid) {
+        certifyToggle.addEventListener('click', function() {
+            certifyGrid.classList.toggle('expanded');
+            certifyToggle.classList.toggle('expanded');
+        });
+    }
+});
