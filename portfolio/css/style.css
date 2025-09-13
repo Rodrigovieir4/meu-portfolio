@@ -1615,34 +1615,65 @@ body {
     }
     
     .nav-inner {
-        flex-direction: column;
-        gap: 8px;
+        flex-direction: row;
+        gap: 10px;
         padding: 0 5px;
+        align-items: center;
+        justify-content: space-between;
     }
     
     .site-title {
         font-size: 1.2em;
-        margin-bottom: 0;
+        margin: 0;
+        flex-shrink: 0;
+        margin-left: 20px;
     }
     
     .main-nav {
         gap: 5px;
         flex-wrap: wrap;
         justify-content: center;
+        flex: 1;
     }
     
-    .nav-button, .nav-button2 {
-        padding: 5px 6px;
-        font-size: 0.8em;
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+    
+    .nav-button2 {
+        padding: 2px 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+        height: auto;
+        min-height: 10px;
+        max-height: 32px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin:10px;
+        text-align: center;
     }
     
     .language-dropdown {
-        margin: 8px auto 0;
+        margin: 0;
     }
     
     .dropdown-btn {
-        padding: 4px 8px;
+        padding: 6px 10px;
         font-size: 13px;
+        height: auto;
+        min-height: 43px;
+        margin-right: 20px;
+    }
+    
+    .dropdown-btn img {
+        width: 28px;
+        height: 24px;
+        margin-right: 0;
     }
     
     .dropdown-content {
@@ -1655,9 +1686,7 @@ body {
     }
     
     .header-contact-icons {
-        margin-right: 8px;
-        gap: 8px;
-        padding: 4px 6px;
+        display: none;
     }
     
     .contact-icon-header {
@@ -1700,19 +1729,20 @@ body {
     }
     
     .tech-skills-section {
-        padding: 15px 0;
+        padding: 10px 0;
     }
     
     .tech-icon {
         font-size: 1.8em;
-        margin: 0 10px;
+        margin: 2px 10px;
         height: 1.8em;
     }
     
     .tech-icon-img {
+        padding: 0px;
         font-size: 1.8em;
-        margin: 0 10px;
-        height: 1.8em;
+        margin: 0 4px;
+        height: 1.0em;
         vertical-align: top;
         display: inline-block;
         line-height: 0;
@@ -1726,27 +1756,28 @@ body {
     
     .about-content-wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         margin-bottom: 30px;
-        padding: 15px;
-        align-items: center;
+        padding: 20px;
+        align-items: flex-start;
+        flex-wrap: nowrap;
     }
     
     .about-text-card {
-        flex: 1 1 80%;
+        flex: 1 1 70%;
         padding: 0;
         font-size: 0.9em;
         text-align: justify;
         width: 100%;
-        max-width: none;
+        max-width: 400px;
         padding-right: 0;
         margin-right: 0;
         box-sizing: border-box;
     }
     
     .text-left-section {
-        width: 100%;
+        width: 85%;
         margin-bottom: 10px;
     }
     
@@ -1754,13 +1785,14 @@ body {
         font-size: 1.125em;
         line-height: 1.7;
         margin-bottom: 15px;
+        margin-left: 10px;
         text-align: justify;
         width: 100%;
     }
     
     .text-flow-section {
-        width: 100%;
-        margin-top: 15px;
+        width: 150%;
+        margin-left: 10px;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -1786,11 +1818,12 @@ body {
     }
     
     .about-image-wrapper {
-        flex: 0 0 auto;
+        flex: 0 0 120px;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0;
+        align-self: flex-start;
     }
     
     .about-image-wrapper .cv-button {
@@ -1799,22 +1832,45 @@ body {
     
     .profile-photo {
         width: 120px;
-        height: 120px;
+        height: 220px;
         object-fit: cover;
         border-radius: 8px;
-        border: 3px solid var(--color-gold);
+        border: 2px solid var(--color-gold);
+        margin-top: 50px;
+        margin-right: -180px;
     }
     
     .about-content-wrapper .cv-button {
         display: none;
     }
+    
+    .project-grid {
+        padding: 10px;
+    }
+    #contact-main-title {
+        text-align: center;
+        
+    }
 }
 
 @media (max-width: 320px) {
-    .dropdown-btn {
-        padding: 3px 6px;
-        font-size: 12px;
+    .nav-button2 {
+        display: none !important;
     }
+    
+    .dropdown-btn {
+        padding: 5px 8px;
+        font-size: 12px;
+        height: auto;
+        min-height: 28px;
+    }
+    
+    .dropdown-btn img {
+        width: 20px;
+        height: 15px;
+        margin-right: 0;
+    }
+    
     
     .header-contact-icons {
         padding: 3px 6px;
@@ -1845,9 +1901,100 @@ body {
     .tech-icon-img {
         font-size: 1.5em;
         margin: 0 8px;
-        height: 1.5em;
+        height: 1.0em;
         vertical-align: top;
         display: inline-block;
         line-height: 0;
     }
+    
+    .about-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+        align-items: center;
+    }
+    
+    .about-text-card {
+        flex: 1 1 100%;
+        padding: 0;
+        font-size: 0.8em;
+        text-align: justify;
+        width: 100%;
+        max-width: none;
+        padding-right: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        line-height: 1.5;
+    }
+    
+    .text-left-section {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    
+    .text-left-section p {
+        font-size: 0.9em;
+        line-height: 1.5;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        text-align: justify;
+        width: 100%;
+    }
+    
+    .text-flow-section {
+        width: 100%;
+        margin-top: 2px;
+        margin-left: 2px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    
+    .text-flow-section p {
+        font-size: 0.9em;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+        width: 100%;
+        max-width: none;
+        padding-right: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    
+    .text-flow-section p:last-child {
+        margin-bottom: 0;
+    }
+    
+    .about-image-wrapper {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px auto;
+        width: 100%;
+        max-width: 120px;
+    }
+    
+    .profile-photo {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 2px solid var(--color-gold);
+        margin: 10px auto;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+
 }
+ 
