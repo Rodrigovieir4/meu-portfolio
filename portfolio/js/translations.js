@@ -1,7 +1,5 @@
-// Sistema de Tradução Profissional
 const translations = {
     pt: {
-        // Navegação
         nav: {
             about: "Sobre",
             skills: "Habilidades",
@@ -11,14 +9,12 @@ const translations = {
             downloadCV: "Baixar CV"
         },
         
-        // Hero Section
         hero: {
             greeting: "Olá, Visitante!",
             nameText: "Sou o",
             jobTitle: "&lt;Desenvolvedor Full-Stack/&gt"
         },
         
-        // Seções
         sections: {
             about: "Sobre Mim",
             skills: "Minhas Habilidades",
@@ -27,12 +23,12 @@ const translations = {
             contact: "Contato"
         },
         
-        // Sobre Mim
         about: {
-            text: "Sou <strong>Rodrigo Vieira de Sousa</strong>, desenvolvedor <span style=\"font-weight: bold; color: #FFD700;\">Full-Stack</span> apaixonado por criar soluções tecnológicas de ponta. Minha transição de <strong>atleta profissional</strong> (futebol e eSports) para a tecnologia não foi uma mudança de carreira, mas uma mudança de campo. A disciplina, o foco estratégico e a resiliência que aprendi competindo são os pilares que sustentam meu trabalho no desenvolvimento de software. Especializado em <span style=\"font-weight: bold; color: #FFD700;\">Python</span> e <span style=\"font-weight: bold; color: #FFD700;\">React</span>, eu prospero em ambientes colaborativos, transformando desafios de negócio em aplicações robustas e escaláveis. Com <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">proficiência profissional em inglês</span>, <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">espanhol básico</span> e um interesse crescente em <span style=\"font-weight: bold; color: #FFD700;\">Inteligência Artificial</span>, estou animado para colaborar em projetos inovadores e de impacto global."
+            text1: "Sou <strong>Rodrigo Vieira de Sousa</strong>, desenvolvedor <span style=\"font-weight: bold; color: #FFD700;\">Full-Stack</span> apaixonado por criar soluções tecnológicas de ponta. Minha transição de <strong>atleta profissional</strong> (futebol e eSports) para a tecnologia não foi uma mudança de carreira, mas uma mudança de campo.",
+            text2: "A disciplina, o foco estratégico e a resiliência que aprendi competindo são os pilares que sustentam meu trabalho no desenvolvimento de software. Especializado em <span style=\"font-weight: bold; color: #FFD700;\">Python</span> e <span style=\"font-weight: bold; color: #FFD700;\">React</span>, eu prospero em ambientes colaborativos, transformando desafios de negócio em aplicações robustas e escaláveis.",
+            text3: "Com <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">proficiência profissional em inglês</span>, <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">espanhol básico</span> e um interesse crescente em <span style=\"font-weight: bold; color: #FFD700;\">Inteligência Artificial</span>, estou animado para colaborar em projetos inovadores e de impacto global."
         },
         
-        // Habilidades
         skills: {
             languages: "Linguagens",
             frameworks: "Frameworks e Bibliotecas",
@@ -42,14 +38,12 @@ const translations = {
             languages_skills: "Idiomas"
         },
         
-        // Idiomas específicos
         language_names: {
             portuguese: "Português",
             english: "Inglês",
             spanish: "Espanhol"
         },
         
-        // Projetos
         projects: {
             api_ecommerce: {
                 title: "API E-commerce",
@@ -67,7 +61,6 @@ const translations = {
             viewProject: "Ver Projeto"
         },
         
-        // Certificados
         certifications: {
             english_course: { title: "Certificado de conclusão do curso de inglês", description: "Conclusão do curso PROFICIENCY, da empresa Wizard no qual estudei por 6 anos." },
             software_quality: { title: "Certificado em Gestão e qualidade de software", description: "Conclusão da UC, dentro do curso de Análise e desenvolvimento de software da Universidade São Judas Tadeu." },
@@ -83,18 +76,25 @@ const translations = {
             java: { title: "Certificado Minicurso de Java da Rocketseat", description: "Desenvolvimento de uma aplicação back-end em Java, Maven, SpringBoot, API Rest, Lombok, Integração com H2 Database Engine, Implementando segurança nos dados do usuário, Tratamento de Exceções e Deploy do back-end." }
         },
         
-        // Contato
         contact: {
             title: "Contato",
             mainTitle: "Vamos construir algo incrível juntos?",
-            subtitle: "Se você está procurando um desenvolvedor dedicado, focado em resultados e que ama resolver desafios, vamos conversar!"
+            subtitle: "Se você está procurando um desenvolvedor dedicado, focado em resultados e que ama resolver desafios, vamos conversar!",
+            formTitle: "Envie uma mensagem",
+            formName: "Nome",
+            formEmail: "Email",
+            formMessage: "Conte-me sobre seu projeto ou como posso ajudar...",
+            formButton: "Enviar Mensagem",
+            formSuccess: "Mensagem enviada com sucesso! Entrarei em contato em breve.",
+            formError: "Por favor, preencha todos os campos corretamente.",
+            formSending: "Enviando sua mensagem...",
+            formSubject: "Nova mensagem do portfólio"
         },
         
         viewCertificate: "Ver Certificado"
     },
     
     en: {
-        // Navigation
         nav: {
             about: "About",
             skills: "Skills",
@@ -104,14 +104,12 @@ const translations = {
             downloadCV: "Download CV"
         },
         
-        // Hero Section
         hero: {
             greeting: "Hi there!",
             nameText: "I'm",
             jobTitle: "&lt;Full-Stack Developer/&gt"
         },
         
-        // Sections
         sections: {
             about: "About Me",
             skills: "My Skills",
@@ -120,12 +118,12 @@ const translations = {
             contact: "Contact"
         },
         
-        // About Me
         about: {
-            text: "I am <strong>Rodrigo Vieira de Sousa</strong>, a <span style=\"font-weight: bold; color: #FFD700;\">Full-Stack</span> developer passionate about creating cutting-edge technological solutions. My transition from <strong>professional athlete</strong> (soccer and eSports) to technology was not a career change, but a field change. The discipline, strategic focus, and resilience I learned competing are the pillars that support my work in software development. Specialized in <span style=\"font-weight: bold; color: #FFD700;\">Python</span> and <span style=\"font-weight: bold; color: #FFD700;\">React</span>, I thrive in collaborative environments, transforming business challenges into robust and scalable applications. With <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">professional proficiency in English</span>, <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">basic Spanish</span>, and a growing interest in <span style=\"font-weight: bold; color: #FFD700;\">Artificial Intelligence</span>, I'm excited to collaborate on innovative projects with global impact."
+            text1: "I am <strong>Rodrigo Vieira de Sousa</strong>, a <span style=\"font-weight: bold; color: #FFD700;\">Full-Stack</span> developer passionate about creating cutting-edge technological solutions. My transition from <strong>professional athlete</strong> (soccer and eSports) to technology was not a career change, but a field change.",
+            text2: "The discipline, strategic focus, and resilience I learned competing are the pillars that support my work in software development. Specialized in <span style=\"font-weight: bold; color: #FFD700;\">Python</span> and <span style=\"font-weight: bold; color: #FFD700;\">React</span>, I thrive in collaborative environments, transforming business challenges into robust and scalable applications.",
+            text3: "With <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">professional proficiency in English</span>, <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">basic Spanish</span>, and a growing interest in <span style=\"font-weight: bold; color: #FFD700;\">Artificial Intelligence</span>, I'm excited to collaborate on innovative projects with global impact."
         },
         
-        // Skills
         skills: {
             languages: "Languages",
             frameworks: "Frameworks and Libraries",
@@ -135,14 +133,12 @@ const translations = {
             languages_skills: "Languages"
         },
         
-        // Language names
         language_names: {
             portuguese: "Portuguese",
             english: "English",
             spanish: "Spanish"
         },
         
-        // Projects
         projects: {
             api_ecommerce: {
                 title: "E-commerce API",
@@ -160,7 +156,6 @@ const translations = {
             viewProject: "View Project"
         },
         
-        // Certifications
         certifications: {
             english_course: { title: "English Course Completion Certificate", description: "Completion of the PROFICIENCY course from Wizard company, which I studied for 6 years." },
             software_quality: { title: "Certificate in Software Management and Quality", description: "Completion of the UC within the Software Analysis and Development course at Universidade São Judas Tadeu." },
@@ -176,18 +171,25 @@ const translations = {
             java: { title: "Java Mini-course Certificate from Rocketseat", description: "Development of a Java back-end application, Maven, SpringBoot, REST API, Lombok, H2 Database Engine integration, Implementing user data security, Exception handling and Back-end deployment." }
         },
         
-        // Contact
         contact: {
             title: "Contact",
             mainTitle: "Ready to build something amazing?",
-            subtitle: "Looking for a results-driven developer who loves tackling challenges? Let's connect and discuss your project!"
+            subtitle: "Looking for a results-driven developer who loves tackling challenges? Let's connect and discuss your project!",
+            formTitle: "Send a message",
+            formName: "Name",
+            formEmail: "Email",
+            formMessage: "Tell me about your project or how I can help...",
+            formButton: "Send Message",
+            formSuccess: "Message sent successfully! I'll get back to you soon.",
+            formError: "Please fill in all fields correctly.",
+            formSending: "Sending your message...",
+            formSubject: "New message from portfolio"
         },
         
         viewCertificate: "View Certificate"
     },
     
     es: {
-        // Navegación
         nav: {
             about: "Acerca de",
             skills: "Habilidades",
@@ -197,14 +199,12 @@ const translations = {
             downloadCV: "Descargar CV"
         },
         
-        // Sección Hero
         hero: {
             greeting: "¡Hola!",
             nameText: "Soy",
             jobTitle: "&lt;Desarrollador Full-Stack/&gt"
         },
         
-        // Secciones
         sections: {
             about: "Acerca de Mí",
             skills: "Mis Habilidades",
@@ -213,12 +213,12 @@ const translations = {
             contact: "Contacto"
         },
         
-        // Acerca de Mí
         about: {
-            text: "Soy <strong>Rodrigo Vieira de Sousa</strong>, desarrollador <span style=\"font-weight: bold; color: #FFD700;\">Full-Stack</span> apasionado por crear soluciones tecnológicas innovadoras. Mi camino desde <strong>atleta profesional</strong> (fútbol y eSports) hacia la tecnología no fue solo un cambio de carrera, sino una transformación completa de campo. La disciplina, pensamiento estratégico y resiliencia que desarrollé compitiendo ahora impulsan mi trabajo en desarrollo de software. Especializado en <span style=\"font-weight: bold; color: #FFD700;\">Python</span> y <span style=\"font-weight: bold; color: #FFD700;\">React</span>, destaco en entornos colaborativos, convirtiendo desafíos empresariales en aplicações robustas y escalables. Con <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">sólidos conocimientos de inglés</span>, <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">español básico</span> y creciente interés en <span style=\"font-weight: bold; color: #FFD700;\">IA</span>, estoy entusiasmado por trabajar en proyectos innovadores con impacto global."
+            text1: "Soy <strong>Rodrigo Vieira de Sousa</strong>, desarrollador <span style=\"font-weight: bold; color: #FFD700;\">Full-Stack</span> apasionado por crear soluciones tecnológicas innovadoras. Mi camino desde <strong>atleta profesional</strong> (fútbol y eSports) hacia la tecnología no fue solo un cambio de carrera, sino una transformación completa de campo.",
+            text2: "La disciplina, pensamiento estratégico y resiliencia que desarrollé compitiendo ahora impulsan mi trabajo en desarrollo de software. Especializado en <span style=\"font-weight: bold; color: #FFD700;\">Python</span> y <span style=\"font-weight: bold; color: #FFD700;\">React</span>, destaco en entornos colaborativos, convirtiendo desafíos empresariales en aplicaciones robustas y escalables.",
+            text3: "Con <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">sólidos conocimientos de inglés</span>, <span style=\"text-decoration: underline; font-weight: bold; color: #FFD700;\">español básico</span> y creciente interés en <span style=\"font-weight: bold; color: #FFD700;\">Inteligencia Artificial</span>, estoy entusiasmado por trabajar en proyectos innovadores con impacto global."
         },
         
-        // Habilidades
         skills: {
             languages: "Lenguajes de Programación",
             frameworks: "Frameworks y Bibliotecas",
@@ -228,14 +228,12 @@ const translations = {
             languages_skills: "Idiomas"
         },
         
-        // Nombres de idiomas
         language_names: {
             portuguese: "Portugués",
             english: "Inglés",
             spanish: "Español"
         },
         
-        // Proyectos
         projects: {
             api_ecommerce: {
                 title: "API E-commerce",
@@ -253,7 +251,6 @@ const translations = {
             viewProject: "Ver Proyecto"
         },
         
-        // Certificaciones
         certifications: {
             english_course: { title: "Certificado de Finalización del Curso de Inglés", description: "Finalización del curso PROFICIENCY de la empresa Wizard en el cual estudié durante 6 años." },
             software_quality: { title: "Certificado en Gestión y Calidad de Software", description: "Finalización de la UC dentro del curso de Análisis y Desarrollo de Software de la Universidade São Judas Tadeu." },
@@ -269,18 +266,25 @@ const translations = {
             java: { title: "Certificado del Minicurso de Java de Rocketseat", description: "Desarrollo de una aplicación back-end en Java, Maven, SpringBoot, API REST, Lombok, Integración con H2 Database Engine, Implementando seguridad en los datos del usuario, Manejo de Excepciones y Despliegue del back-end." }
         },
         
-        // Contacto
         contact: {
             title: "Contacto",
             mainTitle: "¿Listo para crear algo increíble?",
-            subtitle: "¿Buscas un desarrollador orientado a resultados que ama enfrentar desafíos? Conectemos y conversemos sobre tu proyecto!"
+            subtitle: "¿Buscas un desarrollador orientado a resultados que ama enfrentar desafíos? Conectemos y conversemos sobre tu proyecto!",
+            formTitle: "Envía un mensaje",
+            formName: "Nombre",
+            formEmail: "Email",
+            formMessage: "Cuéntame sobre tu proyecto o cómo puedo ayudarte...",
+            formButton: "Enviar Mensaje",
+            formSuccess: "¡Mensaje enviado con éxito! Te contactaré pronto.",
+            formError: "Por favor, completa todos los campos correctamente.",
+            formSending: "Enviando tu mensaje...",
+            formSubject: "Nuevo mensaje del portafolio"
         },
         
         viewCertificate: "Ver Certificado"
     }
 };
 
-// Classe para gerenciar idiomas
 class LanguageManager {
     constructor() {
         this.currentLang = localStorage.getItem('selectedLanguage') || 'pt';
@@ -293,11 +297,9 @@ class LanguageManager {
     }
     
     setupEventListeners() {
-        // Event listeners para os botões de idioma
         document.querySelectorAll('.dropdown-content a').forEach(link => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
-                // Buscar o data-lang no próprio elemento ou no link pai
                 const lang = e.target.getAttribute('data-lang') || e.target.closest('a').getAttribute('data-lang');
                 if (lang) {
                     this.updateLanguage(lang);
@@ -305,14 +307,12 @@ class LanguageManager {
             });
         });
         
-        // Event listener para fechar dropdown ao clicar fora
         document.addEventListener('click', (e) => {
             if (!e.target.closest('.language-dropdown')) {
                 this.closeDropdown();
             }
         });
         
-        // Event listener para o botão do dropdown
         const dropdownBtn = document.querySelector('.dropdown-btn');
         if (dropdownBtn) {
             dropdownBtn.addEventListener('click', (e) => {
@@ -326,7 +326,6 @@ class LanguageManager {
         this.currentLang = lang;
         localStorage.setItem('selectedLanguage', lang);
         
-        // Atualiza o texto do botão
         const dropdownBtn = document.querySelector('.dropdown-btn');
         if (dropdownBtn) {
             const flagImg = dropdownBtn.querySelector('#current-flag');
@@ -335,10 +334,8 @@ class LanguageManager {
             if (langText) langText.textContent = this.getLanguageName(lang);
         }
         
-        // Aplica as traduções
         this.applyTranslations(lang);
         
-        // Fecha o dropdown
         this.closeDropdown();
     }
     
@@ -359,7 +356,6 @@ class LanguageManager {
     applyTranslations(lang) {
         const t = translations[lang];
         
-        // Navegação
         this.updateElement('#nav-about', t.nav.about);
         this.updateElement('#nav-skills', t.nav.skills);
         this.updateElement('#nav-projects', t.nav.projects);
@@ -368,22 +364,20 @@ class LanguageManager {
         this.updateElement('#nav-downloadCV', t.nav.downloadCV);
         this.updateElement('#nav-downloadCV2', t.nav.downloadCV);
         
-        // Hero Section
-        this.updateElement('#greeting-text', t.hero.greeting);
+        this.updateElementWithEmoji('#greeting-text', t.hero.greeting);
         this.updateElement('#name-text', t.hero.nameText);
         this.updateElement('#job-title', t.hero.jobTitle);
         
-        // Seções
         this.updateElement('#about-title', t.sections.about);
         this.updateElement('#skills-title', t.sections.skills);
         this.updateElement('#projects-title', t.sections.projects);
         this.updateElement('#certifications-title', t.sections.certifications);
         this.updateElement('#contact-title', t.sections.contact);
         
-        // Sobre Mim
-        this.updateElement('#about-text', t.about.text);
+        this.updateElement('#about-text1', t.about.text1);
+        this.updateElement('#about-text2', t.about.text2);
+        this.updateElement('#about-text3', t.about.text3);
         
-        // Habilidades
         this.updateElement('#skills-languages', t.skills.languages);
         this.updateElement('#skills-frameworks', t.skills.frameworks);
         this.updateElement('#skills-databases', t.skills.databases);
@@ -396,7 +390,6 @@ class LanguageManager {
         this.updateElement('.tag-english', t.language_names.english);
         this.updateElement('.tag-spanish', t.language_names.spanish);
         
-        // Projetos
         this.updateElement('#project-portfolio-title', t.projects.portfolio.title);
         this.updateElement('#project-portfolio-desc', t.projects.portfolio.description);
         this.updateElement('#project-api-title', t.projects.api_ecommerce.title);
@@ -418,15 +411,19 @@ class LanguageManager {
         // Atualizar certificados
         this.updateCertificates(t);
         
-        // Contato
         this.updateElement('#contact-title', t.contact.title);
         this.updateElement('#contact-main-title', t.contact.mainTitle);
         this.updateElement('#contact-subtitle', t.contact.subtitle);
+        
+        // Formulário de Contato
+        this.updateElement('.contato-form h3', t.contact.formTitle);
+        this.updateElement('#name', t.contact.formName, 'placeholder');
+        this.updateElement('#email', t.contact.formEmail, 'placeholder');
+        this.updateElement('#message', t.contact.formMessage, 'placeholder');
+        this.updateElement('.btn-text', t.contact.formButton);
     }
     
-    // Função para atualizar certificados
     updateCertificates(t) {
-        // Atualizar todos os certificados
         const certifyItems = document.querySelectorAll('.certify-item');
         
         certifyItems.forEach((item, index) => {
@@ -435,7 +432,6 @@ class LanguageManager {
             const link = item.querySelector('.project-link');
             
             if (title && description && link) {
-                // Mapear certificados por ordem
                 const certKeys = [
                     'english_course',
                     'software_quality',
@@ -463,10 +459,28 @@ class LanguageManager {
         });
     }
     
-    updateElement(selector, text) {
+    updateElement(selector, text, attribute = null) {
         const element = document.querySelector(selector);
         if (element) {
-            element.innerHTML = text;
+            if (attribute) {
+                element.setAttribute(attribute, text);
+            } else {
+                element.innerHTML = text;
+            }
+        } else {
+            console.warn('Elemento não encontrado:', selector);
+        }
+    }
+    
+    updateElementWithEmoji(selector, text) {
+        const element = document.querySelector(selector);
+        if (element) {
+            const emoji = element.querySelector('.hand-emoji');
+            if (emoji) {
+                element.innerHTML = text + ' ' + emoji.outerHTML;
+            } else {
+                element.innerHTML = text;
+            }
         }
     }
     
@@ -493,7 +507,6 @@ class LanguageManager {
     }
 }
 
-// Inicializa o gerenciador de idiomas quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Inicializando LanguageManager...');
     try {

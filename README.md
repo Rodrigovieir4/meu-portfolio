@@ -10,6 +10,10 @@ Um portfólio profissional e responsivo desenvolvido com tecnologias modernas, a
 - **⚡ Animações Suaves**: ScrollReveal e partículas interativas
 - **🎯 SEO Otimizado**: Meta tags e estrutura semântica
 - **♿ Acessível**: Navegação por teclado e leitores de tela
+- **🎨 Efeitos Hover**: Ícones de tecnologia com cores oficiais
+- **📝 Formulário Intuitivo**: Validação visual e feedback em tempo real
+- **🎭 Glassmorphism**: Efeitos de vidro modernos no formulário
+- **⚡ Performance Otimizada**: Código limpo e organizado
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -50,6 +54,9 @@ Um portfólio profissional e responsivo desenvolvido com tecnologias modernas, a
 - **Particles.js** - Fundo interativo com partículas
 - **Hover Effects** - Transições suaves nos elementos
 - **Smooth Scroll** - Navegação suave entre seções
+- **Tech Icons Hover** - Cores oficiais das tecnologias no hover
+- **Glassmorphism** - Efeitos de vidro no formulário de contato
+- **Form Validation** - Validação visual em tempo real
 
 ## 📁 Estrutura do Projeto
 
@@ -105,10 +112,12 @@ meu-portfolio/
 - Certificados universitários da São Judas Tadeu
 
 ### 📞 Contato
-- Email profissional
-- LinkedIn
-- GitHub
-- WhatsApp
+- **Formulário Intuitivo** - Validação visual e feedback em tempo real
+- **Ícones de Contato** - GitHub, WhatsApp e LinkedIn no header
+- **Validação em Tempo Real** - Campos validados conforme digitação
+- **Estados Visuais** - Feedback visual para campos válidos/inválidos
+- **Design Glassmorphism** - Efeito de vidro moderno
+- **Botão Animado** - Estados de carregamento com spinner
 
 ### 🚀 Deploy
 - **GitHub Pages**: Ative nas configurações do repositório
@@ -183,8 +192,29 @@ meu-portfolio/
 - 🐙 [GitHub](https://github.com/Rodrigovieir4)
 - 📱 [WhatsApp](https://api.whatsapp.com/send?phone=5511970421998)
 
+## 🆕 Últimas Atualizações (v2.1.0)
+
+### ✨ Novas Funcionalidades
+- **🎨 Efeitos Hover nos Tech Icons** - Cores oficiais das tecnologias
+- **📝 Formulário Redesenhado** - Design glassmorphism moderno
+- **⚡ Validação Intuitiva** - Feedback visual em tempo real
+- **🎭 Botão Animado** - Estados de carregamento com spinner
+- **📱 Ícones de Contato no Header** - Acesso rápido às redes sociais
+- **🧹 Código Otimizado** - Comentários desnecessários removidos
+
+### 🔧 Melhorias Técnicas
+- **CSS Reorganizado** - Estrutura mais limpa e organizada
+- **Media Queries Consolidadas** - Responsividade otimizada
+- **Performance Melhorada** - Código mais eficiente
+- **Acessibilidade Aprimorada** - Melhor experiência para todos os usuários
+
 ## 📈 Roadmap
 
+- [x] ~~Efeitos hover nos ícones de tecnologia~~
+- [x] ~~Formulário de contato redesenhado~~
+- [x] ~~Validação visual em tempo real~~
+- [x] ~~Ícones de contato no header~~
+- [x] ~~Código limpo e organizado~~
 - [ ] Adicionar modo claro/escuro
 - [ ] Implementar blog integrado
 - [ ] Adicionar sistema de comentários
@@ -196,5 +226,5 @@ meu-portfolio/
 
 ⭐ **Se este projeto te ajudou, considere dar uma estrela no repositório!**
 
-**Última atualização**: Setembro 2025
-**Versão**: 2.0.0
+**Última atualização**: Janeiro 2025
+**Versão**: 2.1.0
